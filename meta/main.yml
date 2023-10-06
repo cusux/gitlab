@@ -1,0 +1,44 @@
+---
+galaxy_info:
+  role_name: gitlab
+  author: Paul Wetering <paul.wetering@hcs-company.com>, [Original author; Jeff Geerling <GitHub @geerlingguy>]
+  company: HCS Company
+  license: GPLv3
+
+  # Git info
+  issue_tracker_url: https://github.com/cusux/proxmox/issues
+  github_branch: master
+  description: Installs and configures Proxmox Virtual Environment 7.x on Debian servers.
+
+  # Ansible version info
+  min_ansible_version: "2.10"
+
+  # Applicable platforms info
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: EL
+      versions:
+        - all
+
+  # Role tag info
+  galaxy_tags:
+    - development
+    - web
+    - gitlab
+    - git
+    - repository
+    - ci
+    - integration
+
+dependencies: []
+
+# Roles collections
+collections:
+  - ansible.builtin
+
+...
