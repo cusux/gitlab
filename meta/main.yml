@@ -6,9 +6,9 @@ galaxy_info:
   license: GPLv3
 
   # Git info
-  issue_tracker_url: https://github.com/cusux/proxmox/issues
+  issue_tracker_url: https://github.com/cusux/gitlab/issues
   github_branch: master
-  description: Installs and configures Proxmox Virtual Environment 7.x on Debian servers.
+  description: Installs and configures GitLab server on CentOS/RHEL and Ubuntu/Debian nodes.
 
   # Ansible version info
   min_ansible_version: "2.10"
